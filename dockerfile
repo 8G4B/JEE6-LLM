@@ -1,6 +1,6 @@
 FROM vllm/vllm-openai:latest
 
-ENV MODEL_NAME=meta-llama/Meta-Llama-3-8B-Instruct
+ENV MODEL_NAME=Qwen/Qwen2.5-7B-Instruct
 ENV PORT=10000
 ENV HF_HOME=/data/huggingface
 
